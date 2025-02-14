@@ -31,6 +31,26 @@ public class CalculatorService {
         return result;
     }
 
+    private double performMatrixOperation(Operation operation) {
+        // Placeholder for matrix operations
+        return 0;
+    }
+
+    private double performComplexNumberOperation(Operation operation) {
+        // Placeholder for complex number operations
+        return 0;
+    }
+
+    private double plotGraph(Operation operation) {
+        // Placeholder for graph plotting
+        return 0;
+    }
+
+    private double performSymbolicComputation(Operation operation) {
+        // Placeholder for symbolic computation
+        return 0;
+    }
+
     private int factorial(int n) {
         if (n <= 1) return 1;
         return n * factorial(n - 1);
