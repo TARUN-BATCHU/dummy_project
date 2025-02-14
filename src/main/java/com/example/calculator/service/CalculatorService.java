@@ -30,4 +30,19 @@ public class CalculatorService {
         }
         return result;
     }
+
+    private int factorial(int n) {
+        if (n <= 1) return 1;
+        return n * factorial(n - 1);
+    }
+
+    private int permutation(int n, int r) {
+        return factorial(n) / factorial(n - r);
+    }
+
+    private int combination(int n, int r) {
+        return permutation(n, r) / factorial(r);
+    }
+
+    // Add more methods for other advanced operations
 }
