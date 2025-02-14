@@ -1,0 +1,5 @@
+{
+  "expression": "x^2",
+  "operand1": 2,
+  "operator": "differentiate"
+}

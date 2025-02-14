@@ -1,0 +1,6 @@
+{
+  "operand1": 1,
+  "operand2": -3,
+  "operand3": 2,
+  "operator": "solveQuadratic"
+}

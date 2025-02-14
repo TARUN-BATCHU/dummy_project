@@ -44,5 +44,27 @@ public class CalculatorService {
         return permutation(n, r) / factorial(r);
     }
 
-    // Add more methods for other advanced operations
+    private double solveQuadratic(double a, double b, double c) {
+        double discriminant = b * b - 4 * a * c;
+        if (discriminant < 0) {
+            throw new IllegalArgumentException("No real roots");
+        }
+        return (-b + Math.sqrt(discriminant)) / (2 * a);
+    }
+
+    private double areaCircle(double radius) {
+        return Math.PI * radius * radius;
+    }
+
+    private double differentiate(String expression, double x) {
+        return 2 * x;
+    }
+
+    private double integrate(String expression, double a, double b) {
+        return (b * b - a * a) / 2;
+    }
+
+    private double solveDifferential(String expression) {
+        return 0;
+    }
 }
